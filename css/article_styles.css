@@ -1,0 +1,305 @@
+/*Styles for Articles*/
+
+article {
+    background: url("../images/backgrounds/home/work_bg.jpg");
+}
+
+.picture1 {
+    background: url("../images/backgrounds/work/search.jpg") no-repeat 0 100%;
+    background-size: cover;
+}
+
+.picture2 {
+    background: url("../images/backgrounds/work/blog.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.content {
+    padding: 50px 20px 50px;
+}
+
+.content .helper {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+.content h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: justify;
+    color: #84A558;
+    margin-bottom: 40px;
+}
+
+.content h4 {
+    font-weight: 400;
+    text-align: justify;
+    color: #84A558;
+}
+
+.content h4 a {
+    color: #84A558;
+    font-weight: 400;
+}
+
+.content p {
+    text-align: justify;
+    padding: 0;
+    margin: 10px 0;
+    font-size: 1.2857rem;
+}
+
+.content p a {
+    font-weight: 700;
+    color: #A1CA6C;
+}
+
+.content .tip {
+    font-weight: 700;
+    margin: 30px 0 10px;
+}
+
+.rightimg {
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+
+/*Styles for Articles end*/
+
+/*Animated image for article2*/
+
+.animate-tips {
+    background: url("../images/blog/tip.jpg") no-repeat 0 50%;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.animate-tips h3 {
+    color: #000000;
+}
+
+.animate-tips h4 {
+    line-height: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.css-typing {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.type1 {
+    animation: type1 15s linear infinite;
+
+}
+
+.type2 {
+    animation: type2 15s linear infinite;
+    opacity: 1;
+}
+
+.type3 {
+    animation: type3 15s linear infinite;
+    opacity: 1;
+}
+
+.type4 {
+    animation: type4 15s linear infinite;
+    opacity: 1;
+}
+
+.type5 {
+    animation: type5 15s linear infinite;
+    opacity: 1;
+}
+
+.type6 {
+    animation: type6 15s linear infinite;
+    opacity: 1;
+}
+
+@keyframes type1 {
+    from {
+        width: 0;
+        opacity: 1;
+    }
+    25% {
+        width: 100%;
+        opacity: 1;
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes type2 {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    25% {
+        width: 0;
+        opacity: 0;
+    }
+    25% {
+        width: 0;
+        opacity: 1;
+    }
+    40% {
+        width: 100%;
+        opacity: 1
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes type3 {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    40% {
+        width: 0;
+        opacity: 0;
+    }
+    41% {
+        width: 0;
+        opacity: 1;
+    }
+    55% {
+        width: 100%;
+        opacity: 1
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes type4 {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    55% {
+        width: 0;
+        opacity: 0;
+    }
+    56% {
+        width: 0;
+        opacity: 1;
+    }
+    70% {
+        width: 100%;
+        opacity: 1
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes type5 {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    70% {
+        width: 0;
+        opacity: 0;
+    }
+    71% {
+        width: 0;
+        opacity: 1;
+    }
+    85% {
+        width: 100%;
+        opacity: 1
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes type6 {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+    85% {
+        width: 0;
+        opacity: 0;
+    }
+    86% {
+        width: 0;
+        opacity: 1;
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+/*Animated image  for article2 end*/
+
+@media screen and (max-width: 1139px) {
+
+    .animate-tips h3 span {
+        display: none;
+    }
+
+    .animate-tips h3 {
+        font-size: 1.8rem;
+    }
+
+    .animate-tips h4 {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .rightimg {
+        width: 100%;
+    }
+
+    .content p {
+        font-size: 1rem;
+    }
+
+    .content .animate-tips {
+        padding: 20px 10px;
+    }
+
+    .content .animate-tips h3 {
+        font-size: 1.4rem;
+    }
+
+    .content .animate-tips h4 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .content p {
+        font-size: 1rem;
+    }
+
+    .content .animate-tips {
+        display: none;
+    }
+
+}
+

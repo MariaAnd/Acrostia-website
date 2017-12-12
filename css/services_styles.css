@@ -1,0 +1,164 @@
+/*Banner*/
+
+.banner {
+    background: url("../images/backgrounds/services/grow.jpg") no-repeat 0 0;
+    background-size: cover;
+}
+
+.banner h1 {
+    color: #b24a50;
+}
+
+.banner h2 {
+    color: #b24a50;
+}
+
+/*Banner end*/
+
+/*Section Services*/
+
+.services .content {
+    display: flex;
+}
+
+.services .sidebar {
+    width: 15%;
+    padding-right: 20px;
+}
+
+.services .sidebar a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2857rem;
+    margin-bottom: 50px;
+    color: #ffcccf;
+}
+
+.services .sidebar a:before {
+    color: #ffffff;
+    content: attr(data-hover);
+    position: absolute;
+    opacity: 0;
+    transform: scale(1.1) translateX(10px) translateY(-10px) rotate(4deg);
+    transition: transform 0.3s, opacity 0.3s;
+    pointer-events: none;
+}
+
+.services .sidebar a:hover:before,
+.services .sidebar a:focus:before {
+    transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
+    opacity: 1;
+}
+
+.services .information {
+    border-left: 1px solid #ffffff;
+    padding-left: 50px;
+}
+
+.services .information h3 {
+    text-transform: uppercase;
+    padding: 5px 0 20px;
+}
+
+.services .information p {
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.services .information .image-service {
+    width: 100%;
+    height: 400px;
+    background: repeat;
+    background-size: cover;
+    margin: 20px 0 80px;
+}
+
+.services .information .service1 {
+    background-image: url(../images/backgrounds/services/analysis.jpg);
+    background-position: 50% 50%;
+}
+
+.services .information .service2 {
+    background-image: url(../images/backgrounds/services/creativety.jpg);
+    background-position: 100% 100%;
+}
+
+.services .information .service3 {
+    background-image: url(../images/backgrounds/services/strategy.jpg);
+    background-position: 50% 50%;
+}
+
+.services .information .service4 {
+    background-image: url(../images/backgrounds/services/consulting.jpg);
+    background-position: 100% 100%;
+    margin: 20px 0 0;
+}
+
+/*Animation for services images*/
+
+.content-item {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.content-item .overlay {
+    border-bottom: 100px solid #ffffff;
+    border-left: 100px solid transparent;
+    bottom: 0;
+    height: 0;
+    opacity: 0.95;
+    position: absolute;
+    right: 0;
+    width: 0;
+    transition: all 0.5s ease-out;
+}
+
+.content-item:hover .overlay {
+    border-bottom: 2000px solid #ffffff;
+    border-left: 2000px solid transparent;
+    transition: all 0.5s ease-out;
+}
+
+.content-item .corner-overlay-content {
+    bottom: 15px;
+    position: absolute;
+    right: 15px;
+    transition: all 0.5s ease-out;
+    color: #b24a50;
+}
+
+.content-item:hover .corner-overlay-content {
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+.content-item .overlay-content {
+    bottom: 0;
+    color: #b24a50;
+    left: 0;
+    opacity: 0;
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease-out;
+}
+
+.content-item:hover .overlay-content {
+    opacity: 1;
+    transition: all 0.5s 0.3s ease-out;
+}
+
+.content-item .overlay-content h4 {
+    margin-bottom: 10px;
+}
+
+.content-item .overlay-content p {
+    text-align: justify;
+    padding: 0;
+}
+
+/*Animation for services images end*/

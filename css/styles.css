@@ -1,0 +1,320 @@
+/*Navbar*/
+
+.navbar nav .blue-background .active {
+    background-color: #74c7d5;
+}
+
+.navbar nav .red-background .active {
+    background-color: #df5c64;
+}
+
+.navbar nav .purple-background .active {
+    background-color: #91778e;
+}
+
+.navbar nav .green-background .active {
+    background-color: #a1ca6c;
+}
+
+.navbar nav .cyan-background .active {
+    background-color: #82c8bd;
+}
+
+#btn-menu1,
+#btn-menu2,
+#btn-menu3,
+#btn-menu4,
+#btn-menu5 {
+    display: none;
+}
+
+#btn-menu1 + label,
+#btn-menu2 + label,
+#btn-menu3 + label,
+#btn-menu4 + label,
+#btn-menu5 + label {
+    display: none;
+}
+
+#btn-menu1 + label:before,
+#btn-menu2 + label:before,
+#btn-menu3 + label:before,
+#btn-menu4 + label:before,
+#btn-menu5 + label:before {
+    content: '\f0c9';
+    display: inline-block;
+    font-family: 'FontAwesome';
+    font-size: 40px;
+}
+
+#btn-menu1:checked + label:before,
+#btn-menu2:checked + label:before,
+#btn-menu3:checked + label:before,
+#btn-menu4:checked + label:before,
+#btn-menu5:checked + label:before {
+    content: '\f00d close';
+    font-family: 'FontAwesome';
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0 10px 10px;
+}
+
+/*Navbar end */
+
+/*Navbar for first section*/
+
+#home {
+    position: relative;
+}
+
+#home .fixed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/*Navbar for first section end */
+
+/* Slider */
+
+.slider {
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider1 {
+    background-image: url("../images/backgrounds/home/slider1.jpg");
+}
+
+.slider2 {
+    background-image: url("../images/backgrounds/home/slider2.jpg");
+}
+
+.slider3 {
+    background-image: url("../images/backgrounds/home/slider3.jpg");
+}
+
+.slider .title-helper {
+    max-width: 840px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 15px 50px 20px 40px;
+    margin: 290px auto 290px;
+    color: #74c7d5;
+    border-radius: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.slider h2 {
+    max-width: 370px;
+    text-align: right;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.slider h1 {
+    padding-left: 10px;
+}
+
+.slider span {
+    text-transform: uppercase;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    padding: 0 50px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    font-size: 3.5714rem;
+}
+
+.next {
+    right: 0;
+}
+
+.dots {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+}
+
+.dot {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 0 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active {
+    background-color: #74c7d5;
+}
+
+/*Slider end*/
+
+/*Section services*/
+
+.services h5 {
+    text-align: center;
+    margin: 0 0 18px;
+    font-weight: 400;
+}
+
+.services span {
+    color: #ec9da2;
+}
+
+.services p {
+    color: #ffcccf;
+    margin-bottom: 117.5px;
+}
+
+.services .service-list {
+    display: flex;
+}
+
+.services .service-list .service {
+    margin-right: 20px;
+    padding: 0 25px;
+    text-align: center;
+    background: rgba(200, 83, 90, 0.8);
+    border-radius: 0.3rem;
+    width: 260px;
+}
+
+.services .service-list .service:last-child {
+    margin-right: 0;
+}
+
+.services .service-list .service h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.services .service-list .service .description {
+    line-height: 1.5rem;
+    margin-bottom: 35px;
+}
+
+.icon:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #c45158;
+    box-shadow: 0 0 0 5px #ffffff;
+    background: #ffffff url("../images/sprites/sprite.png") no-repeat;
+    margin: 45px auto 30px;
+}
+
+.icon-lightball:before {
+    background-position: 35px center;
+}
+
+.icon-magicwand:before {
+    background-position: -240px center;
+}
+
+.icon-gears:before {
+    background-position: -525px center;
+}
+
+.icon-rocket:before {
+    background-position: -805px center;
+
+}
+
+/*Section services end*/
+
+/*Section about*/
+
+.about p {
+    color: #d9c4d6;
+    margin-bottom: 50px;
+}
+
+.about button {
+    width: 19.6429rem;
+    height: 3.5714rem;
+    background: #a1ca6c;
+    font-size: 1.7857rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0.5rem;
+    position: relative;
+    outline: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    margin: 0 auto 55px;
+    display: block;
+}
+
+.about button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3.5714rem;
+    left: 8.9286rem;
+    border: 14px solid transparent;
+    border-top: 14px solid #a1ca6c;
+}
+
+/*Section about end*/
+
+/*Section work*/
+
+.work p a {
+    font-weight: 900;
+}
+
+.work h5 a {
+    padding: 0 20px;
+    line-height: 7.1429rem;
+    text-align: center;
+}
+
+/*Section work end*/
+
+/*Section contacts*/
+
+.contacts .content {
+    padding: 190px 20px 80px;
+}
+
+.contacts .content p a {
+    font-weight: 700;
+}
+
+.contacts .contact_information {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+.contacts .contact_information .location {
+    align-self: center;
+    margin: 0 20px;
+}
+
+/*Section contacts end*/
+

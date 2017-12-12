@@ -1,0 +1,291 @@
+@media screen and (min-width: 1024px) and (max-width: 1139px) {
+    .work .portfolio_list .image img {
+        width: 230px;
+    }
+
+    .work .portfolio_list > div:hover .image:after {
+        left: 87px;
+    }
+
+    .work .portfolio_list .image_sign:before {
+        left: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+    header #btn-menu + label {
+        display: inline-block;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    header #btn-menu + label + .list-menu {
+        display: none;
+    }
+
+    header #btn-menu:checked + label + .list-menu {
+        display: block;
+    }
+
+    header .navbar {
+        position: relative;
+    }
+
+    header nav {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    header .navbar nav li a {
+        width: 5rem;
+        font-size: 1.1429rem;
+        text-align: center;
+        padding: 5px 0 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        background-color: rgba(117, 180, 169, 0.5);
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    .content h1 {
+        font-size: 5rem;
+    }
+
+    .content h2 {
+        font-size: 3.3333rem;
+    }
+
+    .banner .helper {
+        margin-bottom: 0;
+    }
+
+    .services .sidebar {
+        width: 20%;
+        padding-right: 10px;
+    }
+
+    .services .information {
+        padding-left: 10px;
+    }
+
+    .services .content-item .overlay-content p span {
+        display: none;
+    }
+
+    .about .members {
+        justify-content: space-around;
+    }
+
+    .about .members .member {
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding: 0 25px;
+    }
+
+    .work .portfolio_list .modal {
+        padding: 0;
+    }
+
+    .work .portfolio_list .modal-content {
+        width: 100%;
+    }
+
+    .contacts .contact_information {
+        display: inline-block;
+    }
+
+    .contacts .contact_information .location {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .about .members .member {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .content {
+        padding: 40px 20px 20px;
+    }
+
+    .content h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .content h2 {
+        font-size: 2.2rem;
+    }
+
+    .content h3 {
+        font-size: 1.5rem;
+    }
+
+    .content h4 {
+        font-size: 1.3rem;
+    }
+
+    .content h5 {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .content p {
+        line-height: 1.2rem;
+    }
+
+    .services .sidebar {
+        display: none;
+    }
+
+    .services .information {
+        border-left: 0;
+        padding-left: 0;
+    }
+
+    .services .information .image-service {
+        height: 300px;
+        margin: 20px 0 40px;
+    }
+
+    .services .content-item .overlay,
+    .services .content-item .corner-overlay-content,
+    .services .content-item .overlay-content {
+        display: none;
+    }
+
+    .about .members .member {
+        width: 80%;
+    }
+
+    .about .members .member blockquote {
+        height: auto;
+    }
+
+    .work .portfolio_navigation {
+        display: none;
+    }
+
+    .work .portfolio_list {
+        margin-top: 20px;
+    }
+
+    .work .portfolio_list > div:nth-child(2n) {
+        display: none;
+    }
+
+    .work .blog .articles {
+        flex-wrap: wrap;
+    }
+
+    .work .blog .articles .article {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contacts .contact_information .location .mobile {
+        display: inline-block;
+    }
+
+    .contacts .contact_information .location .not_mobile {
+        display: none;
+    }
+
+    .contacts .form .name,
+    .contacts .form .e-mail,
+    .contacts .form .question,
+    .contacts .form .submit {
+        width: 100%;
+    }
+
+    .contacts .contact_information .form .send {
+        width: 50%;
+    }
+
+    footer a {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+
+    html {
+        font-size: 18px;
+    }
+
+    header {
+        padding-bottom: 0;
+    }
+
+    .content .helper {
+        margin-top: 120px;
+        margin-bottom: 0;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content h2 {
+        display: none;
+    }
+
+    header .navbar .logo {
+        display: none;
+    }
+
+    header .navbar .list-menu {
+        padding: 0 10px;
+    }
+
+    header .navbar .list-menu li {
+        margin-right: 10px;
+    }
+
+    header .navbar nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header #btn-menu:checked + label + .list-menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header #btn-menu + label:before {
+        color: #75b4a9;
+    }
+
+    header #btn-menu:checked + label:before {
+        color: #75b4a9;
+    }
+
+    .about .members .member a {
+        margin: 0 5px;
+    }
+
+    .contacts .form .send {
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
+
+    footer {
+        padding: 30px 0 35px;
+        justify-content: center;
+    }
+
+    footer a {
+        margin: 0 5px;
+    }
+}

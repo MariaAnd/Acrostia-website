@@ -1,0 +1,105 @@
+/*Banner*/
+
+.banner {
+    background: url("../images/backgrounds/about/team.jpg") no-repeat 55% 60%;
+    background-size: cover;
+}
+
+.banner h1 {
+    color: #665464;
+}
+
+.banner h2 {
+    color: #665464;
+}
+
+/*Banner end*/
+
+/*Section About*/
+
+.about h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about h3 span {
+    color: #d9c4d6;
+    font-weight: 400;
+}
+
+.about .presentation {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 40px;
+}
+
+.about .members {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about .members .member {
+    width: 23%;
+    margin: 10px 0;
+}
+
+.about .members .member p {
+    margin-bottom: 20px;
+}
+
+.about .members .member blockquote {
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    height: 7.2rem;
+}
+
+.about .members .member5:before {
+    background-image: url("../images/backgrounds/about/member5.jpg");
+}
+
+.about .members .member6:before {
+    background-image: url("../images/backgrounds/about/member6.jpg");
+}
+
+.about .members .member7:before {
+    background-image: url("../images/backgrounds/about/member7.jpg");
+}
+
+.about .members .member8:before {
+    background-image: url("../images/backgrounds/about/member8.jpg");
+}
+
+/*Section About end*/
+
+/*Animation*/
+
+.about .members .member:hover::before {
+    animation: swing 1s ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes swing {
+    15% {
+        transform: translateX(5px);
+    }
+    30% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(3px);
+    }
+    65% {
+        transform: translateX(-3px);
+    }
+    80% {
+        transform: translateX(2px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*Animation end*/

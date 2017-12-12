@@ -1,0 +1,104 @@
+/*Banner*/
+
+.banner {
+    background: url("../images/backgrounds/work/ourwork.jpg") no-repeat;
+    background-size: cover;
+}
+
+.banner h1 {
+    color: #84A558;
+}
+
+.banner h2 {
+    color: #84A558;
+}
+
+/*Banner end*/
+
+/*Section work*/
+
+.work h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.work h3 a {
+    color: #A1CA6C;
+    font-weight: 400;
+}
+
+.work .portfolio_navigation li a {
+    line-height: 7.1429rem;
+}
+
+.work .blog {
+    margin-top: 100px;
+}
+
+.work .blog .articles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.work .blog .articles .picture {
+    width: 100%;
+    height: 300px;
+}
+
+.work .blog .articles .picture1 {
+    background: url("../images/backgrounds/work/search.jpg") no-repeat;
+    background-size: cover;
+}
+
+.work .blog .articles .picture2 {
+    background: url("../images/backgrounds/work/blog.jpg") no-repeat;
+    background-size: cover;
+}
+
+.work .blog .articles .article {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.work .blog .articles .article h4 {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.work .blog .articles .article h5 {
+    font-weight: 300;
+    text-align: justify;
+}
+
+.work .blog .articles .article p {
+    text-align: justify;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.work .blog .articles .article button {
+    color: #ffffff;
+    font-size: 1.1429rem;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(#A1CA6C, #84A558);
+    border: 1px solid #e0eeb6;
+    outline: none;
+}
+
+.work .blog .articles .article button:hover {
+    background: linear-gradient(#84A558, #A1CA6C);
+}
+
+/*Section work end*/
+
+
+

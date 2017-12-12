@@ -1,0 +1,51 @@
+/*Banner*/
+
+.banner {
+    background: url("../images/backgrounds/contacts/contact.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.banner h1 {
+    color: #75b4aa;
+}
+
+.banner h2 {
+    color: #75b4aa;
+}
+
+/*Banner end*/
+
+/*Section Contacts*/
+
+.contacts .contact_information .location .mobile {
+    display: none;
+}
+
+.contacts .form {
+    margin-top: 50px;
+}
+
+.contacts .form .submit {
+    width: 500px;
+}
+
+.contacts .asked_questions h3 {
+    text-transform: uppercase;
+    padding: 50px 0 30px;
+    text-align: left;
+}
+
+.contacts .asked_questions p {
+    text-align: justify;
+    padding: 0;
+}
+
+.contacts .asked_questions .question {
+    font-weight: 700;
+}
+
+.contacts .asked_questions .answer {
+    margin: 10px 0 20px;
+}
+
+/*Section Contacts end*/

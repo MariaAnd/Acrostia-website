@@ -1,0 +1,361 @@
+@media screen and (min-width: 1024px) and (max-width: 1139px) {
+    .slider .title-helper {
+        padding: 15px;
+    }
+
+    .prev, .next {
+        padding: 0 20px;
+    }
+
+    .work .portfolio_list .image {
+        width: 230px;
+        height: 177px;
+    }
+
+    .work .portfolio_list .image img{
+        width: 230px;
+        height: 177px;
+    }
+
+    .work .portfolio_list > div:hover .image:after {
+        left: 87px;
+    }
+
+    .work .portfolio_list .image_sign:before {
+        left: 100px;
+    }
+
+    .contacts .contact_information .form .name,
+    .contacts .contact_information .form .e-mail,
+    .contacts .contact_information .form .question {
+        width: 100%;
+    }
+
+    .contacts .contact_information .form .send {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    #btn-menu1 + label,
+    #btn-menu2 + label,
+    #btn-menu3 + label,
+    #btn-menu4 + label,
+    #btn-menu5 + label {
+        display: inline-block;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    #btn-menu1 + label + .list-menu,
+    #btn-menu2 + label + .list-menu,
+    #btn-menu3 + label + .list-menu,
+    #btn-menu4 + label + .list-menu,
+    #btn-menu5 + label + .list-menu {
+        display: none;
+    }
+
+    #btn-menu1:checked + label + .list-menu,
+    #btn-menu2:checked + label + .list-menu,
+    #btn-menu3:checked + label + .list-menu,
+    #btn-menu4:checked + label + .list-menu,
+    #btn-menu5:checked + label + .list-menu {
+        display: block;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    nav {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .navbar nav li a {
+        width: 5rem;
+        font-size: 1.1429rem;
+        text-align: center;
+        padding: 5px 0;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.5)
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    .content {
+        padding: 170px 10px 70px;
+    }
+
+    .slider .title-helper {
+        padding: 15px;
+        width: 70%;
+        margin: 0 auto 100px;
+    }
+
+    .slider h2 {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+
+    .slider h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .prev, .next {
+        padding: 0 10px;
+    }
+
+    .dots {
+        bottom: 50px;
+    }
+
+    .services .service-list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .services .service-list .service {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about .members {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .about .members .member {
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding: 0 25px;
+    }
+
+    .work .portfolio_list .modal {
+        padding: 0;
+    }
+
+    .work .portfolio_list .modal-content {
+        width: 100%;
+    }
+
+    .contacts .contact_information .location {
+        display: none;
+    }
+
+    .contacts .contact_information .address {
+        margin-right: 20px;
+    }
+
+    .contacts .contact_information .form .name,
+    .contacts .contact_information .form .e-mail,
+    .contacts .contact_information .form .question,
+    .contacts .contact_information .form .submit {
+        width: 80%;
+    }
+
+    .contacts .contact_information .form .send {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .services .service-list .service {
+        width: 40%;
+    }
+
+    .about h2 span {
+        white-space: nowrap;
+    }
+
+    .about .members .member {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .content {
+        padding: 180px 10px 80px;
+    }
+
+    .content h2 {
+        font-size: 3rem;
+    }
+
+    .slider .title-helper {
+        margin: 60px auto 20px;
+    }
+
+    .slider h1 {
+        font-size: 4.4444rem;
+    }
+
+    .slider h2 {
+        font-size: 3rem;
+    }
+
+    .dots {
+        bottom: 20px;
+    }
+
+    .services .service-list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .services .service-list .service {
+        width: 70%;
+    }
+
+    .about h2 span {
+        display: none;
+    }
+
+    .about .members .member {
+        width: 70%;
+    }
+
+    .work .portfolio_navigation {
+        display: none;
+    }
+
+    .work .portfolio_list {
+        margin-top: 20px;
+    }
+
+    .work .portfolio_list > .image-container:nth-child(5),
+    .work .portfolio_list > .image-container:nth-child(6),
+    .work .portfolio_list > .image-container:nth-child(7),
+    .work .portfolio_list > .image-container:nth-child(8) {
+        display: none;
+    }
+
+    .contacts .content {
+        padding: 180px 10px 80px;
+    }
+
+    .contacts .contact_information {
+        display: block;
+    }
+
+    .contacts .contact_information .address {
+        margin-bottom: 40px;
+    }
+
+    footer a {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    html {
+        font-size: 18px;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+    }
+
+    .content h2 {
+        font-size: 2rem;
+    }
+
+    .content h3 {
+        font-size: 1.5rem;
+    }
+
+    .content h4 {
+        font-size: 1.3rem;
+    }
+
+    .content h5 {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .content p {
+        line-height: 1.2rem;
+    }
+
+    .slider .title-helper {
+        margin: 10px auto 20px;
+    }
+
+    .prev, .next {
+        font-size: 2rem;
+    }
+
+    .dot {
+        margin: 0 10px;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .navbar .list-menu {
+        padding: 0 10px;
+    }
+
+    .navbar .list-menu li {
+        margin-right: 10px;
+    }
+
+    .navbar nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #btn-menu1:checked + label + .list-menu,
+    #btn-menu2:checked + label + .list-menu,
+    #btn-menu3:checked + label + .list-menu,
+    #btn-menu4:checked + label + .list-menu,
+    #btn-menu5:checked + label + .list-menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .services .service-list .service .description {
+        line-height: 1.2rem;
+    }
+
+    .about button {
+        width: 80%;
+        height: 3.5714rem;
+        font-size: 1.2rem;
+    }
+
+    .about button:after {
+        display: none;
+    }
+
+    .about .members .member a {
+        margin: 0 5px;
+    }
+
+    .contacts .contact_information .form .send {
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+    }
+
+    footer {
+        padding: 30px 0 35px;
+        justify-content: center;
+    }
+
+    footer a {
+        margin: 0 5px;
+    }
+}
+
